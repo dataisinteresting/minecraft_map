@@ -38,45 +38,41 @@ Use the imageScale property if the pin image is too large.
 
 UnminedCustomMarkers = {
 
-    isEnabled: false,
+    isEnabled: true,
 
     markers: [
 
-        // Example 1: Simple marker
+        // Home
         {
-            x: -200,
-            z: -200,
+            x: 117,
+            z: -436,
             image: "custom.pin.png",
             imageAnchor: [0.5, 1],
             imageScale: 0.5,
-        },
-
-        // Example 2: Marker with text
-        {
-            x: 0,
-            z: 0,
-            image: "custom.pin.png",
-            imageAnchor: [0.5, 1],
-            imageScale: 0.5,
-            text: "Marker with text",
-            textColor: "red", 
+            text: "Home",
+            textColor: "black", 
             offsetX: 0,
             offsetY: 20,
-            font: "bold 20px Calibri,sans serif",
+            font: "bold 30px Calibri,sans serif",
+	    textStrokeColor: "white",
+            textStrokeWidth: 3,
         },
 
-        // Example 3: Text only
+        // Woodland Mansion
         {
-            x: 200,
-            z: 200,
-            text: "Text only", 
-            textColor: "yellow", 
+            x: 9433,
+            z: 762,
+            image: "custom.pin.png",
+            imageAnchor: [0.5, 1],
+            imageScale: 0.5,
+            text: "Woodland Mansion",
+            textColor: "black", 
             offsetX: 0,
-            offsetY: 0, 
-            font: "bold 50px Calibri,sans serif",
+            offsetY: 20,
+            font: "bold 30px Calibri,sans serif",
+	    textStrokeColor: "white",
+            textStrokeWidth: 3,
         },
-
-        // add your markers here
 
 
 
